@@ -10,7 +10,7 @@ The STM8S003F3P6 MCU firmware is not accessible (it is read protected) but an al
 
 For tips on creating firmware, see this [project](https://github.com/rtek1000/W1209-firmware-modified) for the W1209 board.
 
-The MCU monitors the state of the electrodes, which have a pull-down resistor. When a short circuit occurs in the electrodes, a pulse is triggered (from 20ms to 60ms, in steps of 10ms for each LED). The battery is monitored through voltage, see image below with voltage indications.
+The MCU monitors the state of the electrodes, which have a pull-down resistor. When a short circuit occurs in the electrodes, a pulse is triggered (each pulse can be from 20ms to 60ms, in steps of 10ms for each LED). The battery is monitored through voltage, see image below with voltage indications.
 
 The charger is a TP4056 IC, the battery appears to have no protection, be careful not to allow a short circuit to occur on the battery poles.
 
