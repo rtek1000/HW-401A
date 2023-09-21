@@ -10,6 +10,8 @@ The STM8S003F3P6 MCU firmware is not accessible (it is read protected) but an al
 
 The MCU monitors the state of the electrodes, which have a pull-down resistor. When a short circuit occurs in the electrodes, a pulse is triggered (from 20ms to 60ms, in steps of 10ms for each LED). The battery is monitored through voltage, see image below with voltage indications.
 
+The charger is a TP4056 IC, the battery appears to have no protection, be careful not to allow a short circuit to occur on the battery poles.
+
 ![img](https://raw.githubusercontent.com/rtek1000/HW-401A/main/Doc/Image1.png)
 
 ![img](https://raw.githubusercontent.com/rtek1000/HW-401A/main/Doc/Image2.png)
