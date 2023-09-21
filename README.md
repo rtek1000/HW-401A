@@ -4,9 +4,14 @@ Portable Handheld Lithium Battery Spot Welding Machine
 In case someone buys this device and it is defective, this repository has some information.
 
 This device was purchased on the [AliExpress](https://www.aliexpress.com/item/1005005807287144.html) website, but was received defective.
-- A 1uF capacitor was missing and the USB connector was inoperative.
+- A 1uF capacitor was missing (VCAP) and the USB connector was inoperative.
+- - When plugging in the charger, no LEDs lit up. After changing the USB connector, a red LED lit up.
+- - When pressing the power button, only 1 blue LED lit up, but the LED turned off when the button was released. After soldering the 1uF capacitor, other LEDs remained lit.
+- The battery must be charged to test.
 
 The STM8S003F3P6 MCU firmware is not accessible (it is read protected) but an alternative firmware can be made easily.
+
+![img](https://raw.githubusercontent.com/rtek1000/HW-401A/main/Doc/STM8S003F3P6.jpeg)
 
 For tips on creating firmware, see this [project](https://github.com/rtek1000/W1209-firmware-modified) for the W1209 board.
 
