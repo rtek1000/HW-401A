@@ -25,3 +25,5 @@ The charger is a TP4056 IC, the battery appears to have no protection, be carefu
 ![img](https://raw.githubusercontent.com/rtek1000/HW-401A/main/Doc/Charger.jpg)
 
 ![img](https://raw.githubusercontent.com/rtek1000/HW-401A/main/Doc/Defects.jpg)
+
+Note: This info is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
