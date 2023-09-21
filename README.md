@@ -6,6 +6,10 @@ In case someone buys this device and it is defective, this repository has some i
 This device was purchased on the AliExpress website, but was received defective.
 - A 1uF capacitor was missing and the USB connector was inoperative.
 
+The STM8S003F3P6 MCU firmware is not accessible (it is read protected) but an alternative firmware can be made easily.
+
+The MCU monitors the state of the electrodes, which have a pull-down resistor. When a short circuit occurs in the electrodes, a pulse is triggered (from 20ms to 60ms, in steps of 10ms for each LED). The battery is monitored through voltage.
+
 ![img](https://raw.githubusercontent.com/rtek1000/HW-401A/main/Doc/Image1.png)
 
 ![img](https://raw.githubusercontent.com/rtek1000/HW-401A/main/Doc/Image2.png)
