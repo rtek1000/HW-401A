@@ -5,6 +5,9 @@ In case someone buys this device and it is defective, this repository has some i
 
 This device was purchased on the [AliExpress](https://www.aliexpress.com/item/1005005807287144.html) website, but was received defective.
 - A 1uF capacitor was missing (VCAP) and the USB connector was inoperative.
+- - When plugging in the charger, no LEDs lit up. After changing the USB connector, a red LED lit up.
+- - When pressing the power button, only 1 blue LED lit up, but the LED turned off when the button was released. After soldering the 1uF capacitor, other LEDs remained lit.
+- The battery must be charged to test.
 
 The STM8S003F3P6 MCU firmware is not accessible (it is read protected) but an alternative firmware can be made easily.
 
