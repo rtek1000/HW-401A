@@ -1,6 +1,8 @@
 # HW-401A
 Portable Handheld Lithium Battery Spot Welding Machine
 
+------
+
 In case someone buys this device and it is defective, this repository has some information.
 
 This device was purchased on the [AliExpress](https://www.aliexpress.com/item/1005005807287144.html) website, but was received defective.
