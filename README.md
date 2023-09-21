@@ -11,7 +11,7 @@ This device was purchased on the [AliExpress](https://www.aliexpress.com/item/10
 - - When pressing the power button, only 1 blue LED lit up, but the LED turned off when the button was released. After soldering the 1uF capacitor, other LEDs remained lit.
 - The battery must be charged to test. A 470 Ohm resistor can be used to test, (touch each resistor terminal to each electrode), on an oscilloscope it is possible to see the pulse occur (but perhaps just an LED with a 470 Ohm resistor in series can be used to observe the operation).
 
-The STM8S003F3P6 MCU firmware is not accessible (it is read protected) but an alternative firmware can be made easily.
+The STM8S003F3P6 MCU firmware is not accessible (it is read protected, see tips [here](https://github.com/rtek1000/W1209-firmware-modified/tree/master/W1219)) but an alternative firmware can be made easily.
 
 ![img](https://raw.githubusercontent.com/rtek1000/HW-401A/main/Doc/STM8S003F3P6.jpeg)
 
